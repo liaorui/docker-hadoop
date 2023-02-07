@@ -1,4 +1,4 @@
-FROM liaor/hadoop-base:2.0.0-hadoop2.7.4-java8
+FROM liaor/hadoop-base:2.0.0-hadoop3.2.3-java8
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
 HEALTHCHECK CMD curl -f http://localhost:8188/ || exit 1
